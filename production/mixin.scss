@@ -1,0 +1,57 @@
+@charset 'UTF-8';
+
+@import './c-colors';
+@import '_l-html.scss';
+
+
+@mixin h1 {
+        font-size: 2.5em;
+        font-family: $ff1;
+        color: $dgblue;
+}
+
+@mixin h2 {
+    font-size: 2em;
+    font-family: $ff1;
+    color: $dgblue;
+}
+
+@mixin h3 {
+    font-size: 1.3em;
+    font-family: $ff1;
+    color: $dgblue;
+}
+
+@mixin p1 {
+        margin-top: 10px;
+        margin-bottom: 60px;
+        font-size: 1em;
+        font-family: $ff1;
+        color: $gblue;
+}
+
+@mixin btn-cian {
+    background-color: $cian ;
+    border: 2px outset $cian2;
+    border-radius: 30px;
+    padding: 14px 32px;
+    box-shadow: 0px 4px 5px $cian;
+    color: white;
+    text-decoration: none;
+    font-family: $ff1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@mixin btn-blue {
+    background-color: $blue;
+    border: 2px outset $blue2;
+    border-radius: 30px;
+    padding: 14px 32px;
+    box-shadow: 0px 4px 5px $blue;
+    color: white;
+    text-decoration: none;
+    font-family: $ff1;
+    margin-left: 10px;
+    margin-right: 10px;
+}

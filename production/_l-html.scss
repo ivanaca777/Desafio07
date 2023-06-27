@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+$fsize: 18px;
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: $fsize;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        max-width: 100vw;
+    
+        & body {
+            max-width: 100vw;
+            background-image: url("../public/images/bg-header-desktop.png");
+            background-repeat: no-repeat;
+            background-size: 100vw;
+        }
+        
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    html {
+        width: 100vw;
+        background-image: url("../public/images/bg-header-mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    
+        & body {
+            max-width: 100vw;
+        }
+        
+    }
+}
+
